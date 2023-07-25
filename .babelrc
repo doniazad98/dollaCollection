@@ -1,0 +1,26 @@
+{
+  "presets": ["babel-preset-expo"],
+  "plugins": [
+    [
+      "babel-plugin-module-resolver",
+      {
+        "alias": {
+          "@": "./src",
+          "api": "./src/api",
+          "assets": "./src/assets",
+          "components": "./src/components",
+          "constantStyles": "./src/constantStyles",
+          "helpers": "./src/helpers",
+          "hooks": "./src/hooks",
+          "layouts": "./src/layouts",
+          "navigation": "./src/navigation",
+          "screens": "./src/screens",
+          "types": "./src/types",
+          "storybook": "./storybook"
+        },
+        "extensions": [".ts", ".tsx", ".js", ".jsx", ".mp4"],
+        "root": "./src"
+      }
+    ]
+  ]
+}

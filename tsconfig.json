@@ -1,0 +1,13 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "types": ["react-native"],
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "images/*": ["./src/assets/images/*"],
+      "videos/*": ["./src/assets/videos/*"]
+    }
+  }
+}
